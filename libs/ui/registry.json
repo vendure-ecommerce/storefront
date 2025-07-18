@@ -8,6 +8,7 @@
       "type": "registry:component",
       "title": "Demo Component",
       "description": "A simple demo component",
+      "registryDependencies": ["button"],
       "files": [
         {
           "path": "src/registry/default/demo-component/index.tsx",
