@@ -19,7 +19,13 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/components/*": ["../../libs/ui/src/components/*"],
+      "@/lib/*": ["../../libs/ui/src/lib/*"],
+      "@/hooks/*": ["../../libs/ui/src/hooks/*"],
+      "@/components/vendure-storefront-ui/*": [
+        "../../libs/ui/src/registry/default/*"
+      ]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

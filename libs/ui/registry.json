@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "vendure-storefront-ui",
+  "homepage": "https://vendure.io",
+  "items": [
+    {
+      "name": "demo-component",
+      "type": "registry:component",
+      "title": "Demo Component",
+      "description": "A simple demo component",
+      "files": [
+        {
+          "path": "src/registry/default/demo-component/index.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}
