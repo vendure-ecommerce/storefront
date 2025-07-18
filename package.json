@@ -2,10 +2,13 @@
   "name": "root",
   "private": true,
   "workspaces": [
+    "apps/*",
     "packages/*"
   ],
   "dependencies": {},
   "devDependencies": {
-    "lerna": "^8.2.3"
+    "lerna": "^8.2.3",
+    "typescript": "~5.8.0",
+    "@types/node": "^22.0.0"
   }
 }
